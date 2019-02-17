@@ -1,0 +1,45 @@
+.container{
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.64);
+	margin: 2rem auto;
+	max-width: 90%
+	width:1200px;
+}
+footer{
+	border-style: solid;
+	border-width: 1px; 
+}
+header{
+	border-style: solid;
+	border-width: 1px;
+}
+header ul{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	width: 400px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+main h2 {
+	display: flex;
+	justify-content: center;
+}
+#aboutMe{
+	border-style: solid;
+	border-width: 1px; 
+}
+#headShot{
+	display: flex;
+	justify-content: flex-end;
+}
+#projects{
+	border-style: solid;
+	border-width: 1px; 
+}
+#projects ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}

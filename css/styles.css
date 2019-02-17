@@ -1,0 +1,19 @@
+.fa {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-github {
+  background: #000;
+  color: white;
+}
+.fa-linkedin {
+  background: #0077B5;
+  color: white ;
+}
+ ul{
+	list-style-type: none;
+}
