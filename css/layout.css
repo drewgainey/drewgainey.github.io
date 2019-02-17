@@ -4,17 +4,20 @@
 	max-width: 90%
 	width:1200px;
 }
-footer{
+header {
+	display: grid;
+	grid-template-rows: 2rem 1fr 2rem; 
 	border-style: solid;
-	border-width: 1px; 
+	border-size: 1px;
 }
-header{
-	border-style: solid;
-	border-width: 1px;
+header #title{
+	margin: 2rem;
+	grid-row: 2 / 3;
 }
 header ul{
 	display: flex;
 	align-items: flex-end;
+	grid-row: 3 / 4;
 	justify-content: space-around;
 	width: 400px;
 }
@@ -27,19 +30,12 @@ main h2 {
 	display: flex;
 	justify-content: center;
 }
-#aboutMe{
-	border-style: solid;
-	border-width: 1px; 
-}
 #headShot{
 	display: flex;
+	grid-row: 2 / 3;
 	justify-content: flex-end;
 }
-#projects{
-	border-style: solid;
-	border-width: 1px; 
-}
 #projects ul{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	/*display: grid;
+	grid-template-columns: 1fr 1fr;*/
 }

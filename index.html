@@ -5,35 +5,58 @@
 	<link rel="stylesheet" type="text/css" href="./css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');</style>
 </head>
 <body>
 	<div class="container">
 		<header>
-			<h1>Drew Gainey Portfolio </h1>
-			<div id="headShot"><img src="" alt="Head Shot"></div>	
-			<ul>
-				<li><a href="https://github.com/drewgainey" class="fa fa-github"></a>Github</li>
-				<li> <a href="https://www.linkedin.com/in/drewgainey/" class="fa fa-linkedin"></a> linkedin</li>
-				<li> <a href="https://drewgainey@gmail.com" class="fa fa-gmail"></a> gmail</li>
+			<div id="title">
+				<h1>Drew Gainey</h1>
+				<h2>Full Stack Developer</h2>
+			</div>
+			<div id="headShot"><img id="headShot" src="./images/headshot.jpg" alt="Head Shot"></div>	
+			<ul id="socialMedia">
+				<li><a href="https://github.com/drewgainey" class="fa fa-github"></a>GitHub</li>
+				<li> <a href="https://www.linkedin.com/in/drewgainey/" class="fa fa-linkedin"></a> LinkedIn</li>
+				<li> <a href="https://drewgainey@gmail.com" ><img src="./images/gmail.png" class="gmail"></a>Gmail</li>
 			</ul>
 		</header>
 		<main>
-			<div id="projects"> 
-				<h2>Projects</h2>
+			<div class="projects"> 
+				<h2>Recent Projects</h2>
 				<ul>
-					<li>Project 1</li>
-					<li>Project 2</li>
-					<li>Project 3</li>
-					<li>Project 4</li>
+					<li class="projectTitle"><h3><a href="https://github.com/drewgainey/Reviews-Site" class="fa fa-github"></a>Review Site</h3></li>
+						<p>Something about my review stite</p>
+						<p>Technologies Used: Springboot, MVC, Java, HTML, CSS</p>
+					<li class="projectTitle"><h3><a href="https://github.com/drewgainey/Virtual-Pets-Amok" class="fa fa-github"></a>Vitrual Pets Amok</h3></li>
+						<p>Something about Virtual Pets Amoke</p>
+						<p>Technologies Used: Java, Superclasses, Interfaces </p>
+					<li class="projectTitle"><h3>Project 3</h3></li>
+					<li class="projectTitle"><h3>Project 4</h3></li>
 				</ul>
 			</div>
-				<div id="aboutMe">
+				<div class="aboutMe">
 				<h2>About Me</h2>
 			<ul>
-				<li>Summary</li>
-				<li>Technical Education</li>
-				<li>Experiance Highlights</li>
-				<li>Personal Info</li>
+				<li class="aboutMeTitle">Summary</li>
+					<p>Full stack junior software developer with experience in Java based web applications.  //add one extra detail. Currently working in Accounting and Finance. I asprie to leverage this exeriance to my benefit in my new career in technology. Excited to join a team and help build new and exciting applications. My attention to detail and my ability to translate between the technical and the user. These strengths make full stack opportunites particuarly suited for me. </p>
+				<li class="aboutMeTitle">Technical Education</li>
+					<p>We Can Code It January 2019 - April 2019</p>
+					<p>Full Stack coding bootcamp for aspring web developers. Ciriculm based around Java with emphasis on the Spring Framework and Test Driven Development</p>
+				<li class="aboutMeTitle">Experiance Highlights</li>
+					<p>Olshan Properties - Corporate Accounant</p>
+					<ul class="experianceBullets">
+						<li>Managed budgets and Financial statements for commercial real estate portfolio</li>
+						<li>Served as in house expert on accounting systems used</li>
+						<li>Improved on accounting process by developing SQL queries to better mange the analysis of GL data </li>
+					</ul>
+					<p>Novagradac & Co - Staff Accountant Intern</p>
+					<ul class="experianceBullets">
+						<li>Conducted year end financial audits for real estate entities</li>
+						<li>Prepared state and federal tax returns speaclizing in the Low Income Housing Tax Credit(LIHTC) program</li>
+					</ul>
+				<li class="aboutMeTitle">Personal Philosphy</li>
+					<p>The two most important things in life are family and learning. I am lucky enough to have a family that has taught me to treat everyone with the same respect I would give to any of them. Treating people this was brings out the best of the entire team 100% of the time. I also have a desire to be constantly learning. When you seek continous improvement positive results naturally come. I belive that the combination of these ideas makes any task possible  </p>
 			</ul>
 			</div>
 		</main>
