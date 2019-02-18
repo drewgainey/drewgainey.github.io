@@ -25,6 +25,9 @@ header ul{
 main {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	border-right-style: solid;
+    border-left-style: solid;
+    border-size: 1px;
 }
 main h2 {
 	display: flex;
