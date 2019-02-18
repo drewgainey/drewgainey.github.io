@@ -1,5 +1,7 @@
 .container{
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.64);
+	border-style: solid;
+	border-size: 1px; 
 	margin: 2rem auto;
 	max-width: 90%
 	width:1200px;
@@ -7,7 +9,7 @@
 header {
 	display: grid;
 	grid-template-rows: 2rem 1fr 2rem; 
-	border-style: solid;
+	border-bottom-style: solid;
 	border-size: 1px;
 }
 header #title{
@@ -25,9 +27,6 @@ header ul{
 main {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	border-right-style: solid;
-    border-left-style: solid;
-    border-size: 1px;
 }
 main h2 {
 	display: flex;

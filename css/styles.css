@@ -32,12 +32,6 @@ body {
   background: #0077B5;
   color: white ;
 }
-footer{
-	border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-size: 1px;
-}
 .gmail{
   padding: 3px;
   height: 1rem;
