@@ -1,6 +1,9 @@
 const projects = document.querySelectorAll('.project');
 const body = document.querySelector('body');
-const linkedin = document.getElementById('linkedIn');
+var now = new Date();
+var month = now.getMonth();
+var day = now.getDate();
+var year = now.getFullYear();
 
 function toggleOpen() {
     if(this.classList != 'open'){
@@ -8,12 +11,14 @@ function toggleOpen() {
     this.classList.toggle('open');
     }
   }
-  function message(){
-      console.log('hello');
-      window.open("www.google.com");
-  }
+  function changeTheme(){
+      body.classList.toggle('change')
 
+  }
+ 
+  document.getElementById('m').innerHTML = month + 1;
+  document.getElementById('d').innerHTML = day;
+  document.getElementById('y').innerHTML = year;
 
      projects.forEach(project => project.addEventListener('click', toggleOpen));
-     linkedin.addEventListener('click',message);
-    //  document.getElementById('gmail').addEventListener('click',window.open('mailto:test@example.com'));
+     document.getElementById('theme').addEventListener('click',changeTheme);

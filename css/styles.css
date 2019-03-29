@@ -92,3 +92,7 @@ body.hide{
 	width: 500px;
 	height: 500px;
 }
+
+body.change{
+	background: #4480e2;
+}
