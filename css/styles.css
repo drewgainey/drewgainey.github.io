@@ -9,9 +9,7 @@ body {
 	margin: auto;
 	max-width: 1200px;
 }
-canvas{
-	background-color: blue;
-}
+
 .experianceBullets li::before{
 	content: "\2022";
 	color: rgba(136, 52, 155);
