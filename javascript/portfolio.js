@@ -10,5 +10,5 @@ function toggleOpen() {
 //     }
 //   }
 
-  projects.forEach(projectTitle => projectTitle.addEventListener('click', toggleOpen));
+  document.getElementById('projectTitle 1').addEventListener('click',toggleOpen);
 //   panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
