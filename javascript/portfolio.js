@@ -1,14 +1,19 @@
+const projects = document.querySelectorAll('.project');
+const body = document.querySelector('body');
+const linkedin = document.getElementById('linkedIn');
+
 function toggleOpen() {
-    console.log('Hello');
-    // this.classList.toggle('open');
+    if(this.classList != 'open'){
+    body.classList.toggle('hide');
+    this.classList.toggle('open');
+    }
+  }
+  function message(){
+      console.log('hello');
+      window.open("www.google.com");
   }
 
-//   function toggleActive(e) {
-//     console.log(e.propertyName);
-//     if (e.propertyName.includes('flex')) {
-//       this.classList.toggle('open-active');
-//     }
-//   }
 
-  document.getElementById('projectTitle 1').addEventListener('click',toggleOpen);
-//   panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+     projects.forEach(project => project.addEventListener('click', toggleOpen));
+     linkedin.addEventListener('click',message);
+    //  document.getElementById('gmail').addEventListener('click',window.open('mailto:test@example.com'));

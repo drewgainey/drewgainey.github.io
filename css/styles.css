@@ -68,12 +68,27 @@ main h2{
 main p{
 	font-family: 'Lato', sans-serif;
 }
-.projectTitle{
+.project h3{
 	color: rgba(136, 52, 155);
 	font-family: 'Raleway', sans-serif;
 	text-decoration: underline;
 }
+
+.project
  ul{
 	list-style-type: none;
 }
 
+body.hide{
+	background: rgba(204, 204, 204, 0.5); 
+	}
+.project.open{
+	border: 1px black solid;
+	background: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 500px;
+}
